@@ -1,0 +1,48 @@
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.nav-img {
+  width: 10%;
+  float: left;
+}
+.nav-img img {
+  height: 100px;
+}
+
+.nav-main {
+  width: 90%;
+  height: 100px;
+  background-color: red;
+  float: left;
+}
+.clear {
+  clear: both;
+}
+
+.btn {
+  background-color: transparent;
+  border: none;
+  color: blue;
+  /* padding:  100%; */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 100%;
+  /* margin:  100%; */
+  cursor: pointer;
+}
+
+.img {
+  width: 50%;
+  float: left;
+}
